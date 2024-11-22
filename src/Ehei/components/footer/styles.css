@@ -1,0 +1,135 @@
+#ehei-footer {
+  background: #4d47b6;
+  background: linear-gradient(
+    126deg,
+    rgb(115 108 232) 45%,
+    rgb(66 60 182) 120%
+  );
+  padding: 40px 30px;
+  color: white;
+  fill: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#ehei-footer-logo-text {
+  height: 46px;
+  margin: 10px auto 26px auto;
+}
+
+#ehei-footer .copyright-notice {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+#ehei-footer .section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 250px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+#ehei-footer .sections-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: max-content;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#ehei-footer .textbox {
+  display: flex;
+  gap: 12px;
+}
+
+#ehei-footer .textbox a {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#ehei-footer .textbox .icon {
+  width: 25px;
+  height: 25px;
+}
+
+#ehei-footer .textbox .text {
+  flex: 1;
+  font-weight: 500;
+  color: white;
+}
+
+#ehei-footer .section .title-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 3px solid white;
+}
+
+#ehei-footer .section .title-container .title-icon {
+  width: 28px;
+  height: 28px;
+}
+
+#ehei-footer .section .title {
+  letter-spacing: 1px;
+}
+
+#footer-newsletter-email {
+  display: flex;
+  padding: 16px 20px;
+  color: black;
+  width: 200px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  border: unset;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+#footer-newsletter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 8px 18px;
+  width: max-content;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+
+#footer-newsletter-button:hover {
+  background-color: #7b75e0;
+}
+
+#footer-newsletter-button-icon {
+  width: 24px;
+  height: 24px;
+  transform: scaleX(-1);
+}
+
+@keyframes blinking {
+  0% {
+    fill: #7b75e0;
+  }
+  50% {
+    fill: white;
+  }
+  100% {
+    fill: #7b75e0;
+  }
+}

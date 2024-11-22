@@ -1,0 +1,57 @@
+#ehei-under-header-section {
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  background-image: url(../../assets/image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#ehei-under-header-section-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(50%); /* Darken the image */
+}
+
+#ehei-under-header-section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 16px;
+}
+
+#ehei-under-header-section-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#ehei-under-header-section-subtitle {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#ehei-under-header-section-logo-icon {
+  width: 56px;
+  height: 56px;
+  fill: white;
+}
+
+#ehei-under-header-section-logo-text {
+  height: 36px;
+  fill: white;
+  margin-bottom: 8px;
+}

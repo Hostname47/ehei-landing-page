@@ -1,0 +1,76 @@
+#ehei-contact-section {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 80px;
+  padding: 40px 0;
+}
+
+#ehei-contact-section .illustration {
+  flex: 1;
+}
+
+#ehei-contact-section .contact-section {
+  flex: 1.5;
+  margin-right: 60px;
+}
+
+#ehei-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#ehei-contact-section .title {
+  color: #6c63ff;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+#ehei-contact-section .subtitle {
+  margin: 6px 0 16px 0;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}
+
+#ehei-contact-form .button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  width: fit-content;
+  font-family: Arial;
+  border-radius: 6px;
+  border: 1px solid #b6c0c6;
+  cursor: pointer;
+  background-color: #9893ff;
+  color: white;
+  fill: white;
+}
+
+#ehei-contact-form .button:hover {
+  background-color: #6c63ff;
+  fill: white;
+  color: white;
+}
+
+#ehei-contact-form .button .button-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#ehei-contact-form .input {
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+  font-family: monospace;
+  padding: 14px 18px;
+  background-color: transparent;
+  border: 1px solid #b6c0c6;
+  border-radius: 6px;
+  outline: none;
+}

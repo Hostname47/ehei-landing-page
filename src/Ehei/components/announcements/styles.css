@@ -1,0 +1,95 @@
+#ehei-announcements {
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+  overflow: hidden;
+}
+
+#ehei-announcements-preinsc-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #0090ff;
+  fill: #0090ff;
+
+  animation: fade 1.4s infinite;
+}
+
+#ehei-announcements-preinsc-button-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+}
+
+#ehei-announcements-box {
+  position: relative;
+  display: flex;
+  flex: 1;
+  border-left: 1px solid #d2d2d2;
+  box-shadow: 0 8px 8px #00000021;
+  overflow: hidden;
+}
+
+#ehei-announcements-container {
+  display: flex;
+  height: 100%;
+  padding: 0 40px;
+  gap: 40px;
+  overflow: hidden; /* Hide overflowing content */
+  position: absolute;
+  left: 100%;
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: scroll 50s linear infinite;
+}
+
+/* Keyframes for animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(calc(-100% - 90vw));
+  }
+}
+
+#ehei-announcements-container:hover {
+  animation-play-state: paused; /* Pause the animation on hover */
+}
+
+.ehei-announcement-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.ehei-announcement-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.ehei-announcement-text {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+  text-wrap: nowrap;
+  user-select: none;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

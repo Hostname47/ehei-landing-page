@@ -1,0 +1,73 @@
+#ehei-header {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0px 60px;
+  height: 78px;
+  border-bottom: 1px solid #d2d2d2;
+  box-shadow: 0 0 8px #00000021;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 5;
+}
+
+#ehei-header-logo {
+  height: 35px;
+}
+
+#ehei-header-logo-button {
+  display: flex;
+  align-items: center;
+}
+
+#ehei-header-logo-button:hover {
+  fill: aqua;
+}
+
+.ehei-header-nav-button-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.ehei-header-nav-collapse-chevron {
+  width: 15px;
+  height: 15px;
+  margin-top: 2px;
+}
+
+.ehei-header-nav-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#ehei-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+
+#ehei-header nav ul li {
+  list-style: none;
+  color: black;
+}
+
+.ehei-header-nav-button {
+  border: unset;
+  background: unset;
+  font-family: "Roboto Medium";
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.ehei-header-nav-button:hover {
+  fill: rgb(0, 140, 255);
+  color: rgb(0, 140, 255);
+}

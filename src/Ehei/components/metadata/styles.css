@@ -1,0 +1,31 @@
+#ehei-metadata-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+#ehei-metadata-section .icon {
+  width: 96px;
+}
+
+#ehei-metadata-section .title {
+  margin: -6px 0 0 0;
+  letter-spacing: 2px;
+}
+
+#ehei-metadata-section .underline {
+  width: 40px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: rgb(29, 29, 29);
+}
+
+#ehei-metadata-section .text-content {
+  max-width: 900px;
+  text-align: center;
+  line-height: 2;
+}
